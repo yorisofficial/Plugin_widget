@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          darkMode:'class',
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              fontFamily: {
+                inter: ['Inter']
+              },
+              
+            }
+          }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        #toggle:checked ~ label div.toggle-circle {
+          @apply translate-x-6;
+        }
+    </style>
+</head>
+<body class="font-inter dark:bg-black dark:text-white">
+
+  <div href="#" class="fixed bottom-20 right-5 bg-green-500 w-10 h-10 rounded flex  cursor-pointer">
+    <a class="m-auto text-white text-3xl">⬆</a>
+  </div>
+
+  <!-- dark mode -->
+  <section class="container my-20 mx-auto">
+    <div class="text-center my-10">
+      <h1 class="text-3xl font-medium dark:font-bold">Dark mode</h1>
+      <p>with Tailwind CSS</p>
+    </div>
+
+    <div class="rounded-lg flex justify-center py-10 max-w-sm sm:max-w-3xl mx-auto bg-slate-500">
+      <span class="text-sm mx-5 font-bold text-yellow-300 dark:text-slate-100 dark:font-normal">Light</span>
+      <input type="checkbox" name="" id="toggle" class="hidden">
+      <label for="toggle" class="cursor-pointer">
+        <div class="bg-blue-600 dark:bg-slate-600 w-12 h-5 rounded-xl flex items-center">
+          <div class="bg-white w-6 h-6 rounded-full toggle-circle"></div>
+        </div>
+      </label>
+      <span class="text-sm text-slate-100 mx-5 dark:font-bold dark:text-yellow-300">Dark</span>
+    </div>
+  </section>
+
+  <hr class="w-96 mx-auto">
+  <!-- Content Image -->
+  
+
+
+
+  <div class="container">
+
+  </div>
+
+  <!-- Script Dark Mode -->
+  <script>
+    const checkbox = document.querySelector('#toggle');
+    const html = document.querySelector('html');
+
+    checkbox.addEventListener('click', function(){
+      checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
+    });
+  </script>
+</body>
+</html>

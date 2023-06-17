@@ -1,0 +1,30 @@
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+#loading-screen img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Animasi gerakan dari kiri ke kanan */
+@keyframes move {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* Atur tampilan logo pada loading screen */
+.img-loading img {
+  animation: move 5s linear infinite;
+}
+
