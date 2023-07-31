@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/dist/output.css">
+        <link rel="icon" href="/src/img/logo.png" type="image/png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+        <title>Navbar | Dark</title>
+    </head>
+    <body class="scroll-smooth bg-slate-900 text-white">
+        <!-- Navbar light -->
+        <!-- <nav id="navbarSticky" class="branding sticky w-full py-4 px-6 flex gap-6 items-center justify-between transform duration-1000 bg-teal-900">
+            <div class="flex">
+                <a href="" class="text-2xl">
+                    <i class="fab fa-github text-2xl"></i>
+                    <span>yorisofficial</span>
+                </a>
+            </div>
+            <div class="flex gap-4">
+                <div class="gap-6 flex">
+                    <a href="" class="flex gap-4 justify-center items-center"><span class="text-base">
+                            <i class="fab fa-github-square text-xl"></i></span> Navbar Dark </a>
+                    <a href="" class="flex gap-4 justify-center items-center"><span class="text-base">
+                            <i class="fab fa-github-square text-xl"></i></span> Navbar Light </a>
+                </div>
+                <a href="" class="px-6 py-2 border rounded">More Design visit <i class="fas fa-share-square"></i></a>
+            </div>
+        </nav> -->
+        <div id="navbarSticky" class="sticky p-6 md:p-4 bg-teal-900 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="/src/img/logo.png" alt="logo-brand" class="w-10">
+                <h1>yorisofficial</h1>
+            </div>
+            <div class="flex">
+                <div class="md:flex flex-col justify-center items-end">
+                    <div class="flex">
+                        <a href="" class="px-4 py-2 border rounded inline-block"><i class="fab fa-github"></i> more design</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="navigations" class="w-full bg-transparent p-4 transform duration-1000">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="brand-logo flex justify-between w-full md:w-fit">
+                    <img src="http://source.unsplash.com/50x50/?humans" alt="brand-logo" class="rounded-full">
+                    <button id="btn-nav" onclick="active()" class="md:hidden px-6 py-2 bg-blue-500 text-blue-50 rounded focus:bg-blue-800">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+                <div class="items-nav hidden md:flex py-6 md:py-0 w-full md:w-fit">
+                    <ul class="flex flex-col md:flex-row items-start justify-start p-6 md:p-0 w-full gap-6">
+                        <li class="capitalize">
+                            <a href="#home" class="hover:text-sky-400 font-semibold">home</a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#about" class="hover:text-sky-400 font-semibold">about</a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#service" class="hover:text-sky-400 font-semibold">service</a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#pricing" class="hover:text-sky-400 font-semibold">pricing</a>
+                        </li>
+                        <li class="capitalize">
+                            <a href="#contact" class="hover:text-sky-400 font-semibold">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cta-nav hidden w-full md:w-fit md:flex items-center gap-6">
+                    <button class="px-6 py-2 capitalize bg-sky-400 rounded hover:bg-sky-300">Sign Up</button>
+                    <button class="px-6 py-2 capitalize hover:text-sky-400 rounded md:order-1">Let's Talk</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Content pemanis -->
+        <section class="w-full h-screen px-6 md:px-20">
+            <div class="border-2 w-full h-full flex flex-col justify-center items-center gap-6">
+                <h1 class="text-2xl font-bold text-center md:text-start">Navbar Dark <span>With 2 CTA Button</span></h1>
+                <p class="text-base w-3/4 md:w-1/2 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ducimus commodi, necessitatibus, omnis sint error consequatur quisquam nam quae beatae reprehenderit harum iusto eveniet saepe doloremque itaque a, ipsam quibusdam.</p>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8 w-fit">
+                    <a href="" class="px-6 py-2 capitalize bg-sky-400 rounded hover:bg-sky-300">More navbar</a>
+                    <a href="" class="p-4 capitalize gap-4 hover:text-sky-300">
+                        <i class="fab fa-github"></i>
+                        <span>yorisofficial</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="w-full h-screen px-6 md:px-20">
+            <div class="w-full h-full border"></div>
+        </section>
+        <section class="w-full h-screen px-6 md:px-20">
+            <div class="w-full h-full border"></div>
+        </section>
+        <section class="w-full py-6 px-6 md:px-20 flex flex-col justify-center items-center bg-teal-900">
+            <!-- <div class="logo flex gap-4 items-center">
+                <img src="/src/img/logo.png" alt="v-logo" width="50" height="50">
+                <span class="font-bold">yorisofficial</span>
+            </div> -->
+            <div class="social-med">
+                <div class="flex w-full justify-center items-center gap-2 text-white">
+                    <i class="fas fa-hashtag"></i>
+                    <h1 class="font-semibold">Our contact</h1>
+                </div>
+                <div class="flex gap-4 pt-4">
+                    <a href="" class="border rounded-full p-2 hover:border-slate-800 hover:bg-slate-800 hover:text-white transform duration-700">
+                        <span href="" class="flex items-center gap-2 text-base">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </span>
+                    </a>
+                    <a href="" class="border rounded-full p-2 hover:border-slate-800 hover:bg-slate-800 hover:text-white transform duration-700">
+                        <span href="" class="flex items-center gap-2 text-base">
+                            <i class="fab fa-github text-2xl"></i>
+                        </span>
+                    </a>
+                    <a href="" class="border rounded-full p-2 hover:border-slate-800 hover:bg-slate-800 hover:text-white transform duration-700">
+                        <span href="" class="flex items-center gap-2 text-base">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </span>
+                    </a>
+                    <a href="" class="border rounded-full p-2 hover:border-slate-800 hover:bg-slate-800 hover:text-white transform duration-700">
+                        <span href="" class="flex items-center gap-2 text-base">
+                            <i class="fab fa-linkedin-in text-2xl"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <script src="/main.js"></script>
+    </body>
+</html>
