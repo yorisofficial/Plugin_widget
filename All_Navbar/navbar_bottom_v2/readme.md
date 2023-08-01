@@ -1,4 +1,4 @@
-### English
+### 🌐 English
 # NAVIGATION BAR (DESKTOP & SMARTPHONE)
 
 ![Preview](https://github.com/yorisofficial/Plugin_widget/blob/main/All_Navbar/navbar_bottom_v2/img/Preview.png)
@@ -49,7 +49,7 @@ Happy coding!
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-### Bahasa Indonesia
+### 🌐 Bahasa Indonesia
 # NAVIGATION BAR (DESKTOP & SMARTPHONE)
 
 ![Gambar Preview](https://github.com/yorisofficial/Plugin_widget/blob/main/All_Navbar/navbar_bottom_v2/img/Preview.png)
