@@ -32,8 +32,6 @@ This project is licensed under an open license, granting freedom to use it in co
 | Personal      | Allowed  |
 | Educational   | Allowed  |
 
-Feel free to utilize this project and let knowledge flow freely, contributing to a brighter future filled with remarkable achievements.
-
 ## How to Use
 
 1. Clone this repository to your local machine.
@@ -90,7 +88,6 @@ Proyek ini dilisensikan di bawah lisensi terbuka, memberikan kebebasan untuk men
 | Pribadi      | Diizinkan |
 | Pendidikan   | Diizinkan |
 
-Anda bebas menggunakan proyek ini dan membiarkan pengetahuan mengalir secara bebas, berkontribusi untuk masa depan yang lebih cerah penuh dengan prestasi luar biasa.
 
 ## Cara Penggunaan
 
