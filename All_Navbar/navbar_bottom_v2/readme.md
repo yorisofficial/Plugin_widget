@@ -5,7 +5,7 @@
 
 ## Framework
 
-| Teknologi        | Gambar                                                |
+| Tech        | #                                                |
 |------------------|------------------------------------------------------|
 | Tailwind CSS     | ![Tailwind CSS](https://avatars.githubusercontent.com/u/67109815?s=40) |
 | Alpine JS        | ![Alpine JS](https://avatars.githubusercontent.com/u/59030169?s=40) |
@@ -54,7 +54,7 @@ Happy coding!
 
 ## Framework
 
-| Teknologi        | Gambar                                                |
+| Teknologi        | #                                                |
 |------------------|------------------------------------------------------|
 | Tailwind CSS     | ![Tailwind CSS](https://avatars.githubusercontent.com/u/67109815?s=40) |
 | Alpine JS        | ![Alpine JS](https://avatars.githubusercontent.com/u/59030169?s=40) |
