@@ -61,11 +61,6 @@ Happy coding!
 
 
 
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah ketentuan Lisensi MIT, yang memungkinkan Anda menggunakannya untuk tujuan komersial, pribadi, atau pendidikan.
-
 ## Warna Dasar
 
 | Nama Warna         | Kode Hex   | Contoh Warna   |
